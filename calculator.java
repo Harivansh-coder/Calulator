@@ -1,5 +1,4 @@
 /**
- *
  * @author Harivansh Thakur
  */
 package com.library.aj_pract_1;
@@ -12,11 +11,7 @@ public class Calculator extends javax.swing.JFrame {
     private double secondNum;
     private char op;
     private double result;
-    /**
-     * Creates new form calculator
-     * 
-     * 
-     */
+    
     public Calculator() {
         initComponents();
     }
@@ -68,7 +63,7 @@ public class Calculator extends javax.swing.JFrame {
         resultLabel.setText(result + "");
     }
 
-  
+    // GUI implemented, IDLE Generated
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -322,6 +317,8 @@ public class Calculator extends javax.swing.JFrame {
 
         pack();
     }
+    
+    //Buttons implementation
 
     private void addButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButActionPerformed
         // TODO add your handling code here:
